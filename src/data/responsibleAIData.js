@@ -49,7 +49,7 @@ export const complianceFrameworks = [
 
 export const auditLogs = [
   {
-    system: 'Planning Assistant Pro',
+    system: 'Augmented Planning Decisions',
     department: 'MHCLG',
     action: 'Quarterly Review Completed',
     status: 'Passed',

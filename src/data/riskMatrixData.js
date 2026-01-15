@@ -34,7 +34,7 @@ export const riskSystems = [
   },
   {
     id: 3,
-    name: 'Planning Assistant Pro',
+    name: 'Augmented Planning Decisions',
     department: 'MHCLG',
     riskLevel: 'Medium',
     riskScore: 4.2,
@@ -129,7 +129,7 @@ export const matrixData = [
   { likelihood: 'Low', impact: 'Critical', count: 0, systems: [] },
   
   { likelihood: 'Medium', impact: 'Low', count: 5, systems: [] },
-  { likelihood: 'Medium', impact: 'Medium', count: 12, systems: ['Planning Assistant Pro', 'Document Classifier', 'Benefits Calculator'] },
+  { likelihood: 'Medium', impact: 'Medium', count: 12, systems: ['Augmented Planning Decisions', 'Document Classifier', 'Benefits Calculator'] },
   { likelihood: 'Medium', impact: 'High', count: 4, systems: [] },
   { likelihood: 'Medium', impact: 'Critical', count: 1, systems: ['NHS Triage Bot'] },
   

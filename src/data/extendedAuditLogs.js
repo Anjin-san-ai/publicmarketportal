@@ -1,7 +1,7 @@
 export const extendedAuditLogs = [
   {
     id: 1,
-    system: 'Planning Assistant Pro',
+    system: 'Augmented Planning Decisions',
     department: 'MHCLG',
     action: 'Quarterly Review Completed',
     actionType: 'Review',
@@ -209,7 +209,7 @@ export const extendedAuditLogs = [
   },
   {
     id: 17,
-    system: 'Planning Assistant Pro',
+    system: 'Augmented Planning Decisions',
     department: 'MHCLG',
     action: 'System Update Deployed',
     actionType: 'Deployment',

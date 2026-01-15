@@ -95,10 +95,22 @@ const FeaturedApps = () => {
 
               {/* Action Buttons */}
               <div className="flex items-center space-x-3 mt-4">
-                <button className="flex-1 flex items-center justify-center space-x-2 border-2 border-gray-300 text-gray-700 py-2 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
-                  <Info className="w-4 h-4" />
-                  <span>Details</span>
-                </button>
+{app.externalUrl ? (
+                  <a
+                    href={app.externalUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 flex items-center justify-center space-x-2 border-2 border-gray-300 text-gray-700 py-2 rounded-lg font-semibold hover:bg-gray-50 transition-colors"
+                  >
+                    <Info className="w-4 h-4" />
+                    <span>View App</span>
+                  </a>
+                ) : (
+                  <button className="flex-1 flex items-center justify-center space-x-2 border-2 border-gray-300 text-gray-700 py-2 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+                    <Info className="w-4 h-4" />
+                    <span>View App</span>
+                  </button>
+                )}
                 <button className="flex-1 flex items-center justify-center space-x-2 bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                   <span>Deploy</span>
                   <ArrowRight className="w-4 h-4" />

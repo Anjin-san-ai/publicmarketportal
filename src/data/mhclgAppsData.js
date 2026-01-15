@@ -3,11 +3,12 @@ import { FileText, Home, Users, Building, BarChart, MessageCircle, Shield, Trend
 export const mhclgApps = [
   {
     id: 'planning-assistant-pro',
-    name: 'Planning Assistant Pro',
+    name: 'Augmented Planning Decisions',
     category: 'Planning',
     provider: 'Claude',
     providerBadge: 'bg-purple-100 text-purple-700',
     description: 'AI-powered planning application analysis with automated compliance checking and recommendation generation for local authorities.',
+    externalUrl: 'https://mhclg-planning-app.azurewebsites.net/',
     features: [
       'Auto compliance checking',
       'Document analysis',

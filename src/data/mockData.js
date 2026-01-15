@@ -81,11 +81,12 @@ export const departments = [
 export const featuredApps = [
   {
     id: 'planning-assistant',
-    name: 'Planning Assistant Pro',
+    name: 'Augmented Planning Decisions',
     category: 'Planning',
     provider: 'Claude',
     providerBadge: 'bg-purple-100 text-purple-700',
     description: 'AI-powered planning application analysis with automated compliance checking and recommendation generation.',
+    externalUrl: 'https://mhclg-planning-app.azurewebsites.net/',
     features: [
       'Auto compliance check',
       'Document analysis',
